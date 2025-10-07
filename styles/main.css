@@ -2,7 +2,71 @@
 body{
     font-family: helvetica, arial, sans-serif;
 	font-size:1em;
+    color: #0c0801;
 }
+.container{
+    width:100%;	
+    margin:auto;
+    max-width: 1200px;
+    min-width: 600px;
+}
+
 h1, h2{
     font-family: 'Raleway', sans-serif;
+}
+nav ul li{	
+    display:inline;
+}
+nav ul{
+    padding-left: 0;
+    list-style:georgian;
+}
+header{
+    background-color: #474d4a;	
+    border-radius: 8px;
+}
+nav li a{
+    text-decoration: none;	
+    color: #f3dd9f;	
+}
+nav li a:hover{
+    color: #7E8AA2;	
+}
+
+nav ul li{	
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    border-left:1px solid #f7f7f7;
+}
+nav li:first-child{
+    border-left:none;	
+}
+header h1 a{
+    color:#fff;
+    text-decoration: none;
+    display:flex;
+}
+header h1 a:hover{
+    text-decoration: underline;
+}
+#logo{
+    padding:10px;
+}
+main{
+    display:flex;
+    gap: 15px;
+}
+section{
+    padding:0 10px 10px 0;
+}
+.sidebar{
+    padding:20px 40px;	
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-top: 70px;
+ }
+ .resize-img{
+    width:100%;
+    height:100%;
 }
